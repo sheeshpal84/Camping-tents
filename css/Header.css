@@ -1,4 +1,6 @@
-
+.bg-row {
+    background-color: var(--main-color);
+}
 .bg-col-right{
           background-color: var(--main-color);
           padding: 10px 0px 10px 155px;
@@ -9,6 +11,8 @@
     background-color: var(--sec-color);
     color: #fff;
     padding: 10px 155px 10px 0px;
+-webkit-clip-path: polygon(100% 0, 28% 0, 0 100%, 100% 100%);
+clip-path: polygon(100% 0, 6% 0, 0 100%, 100% 100%);
 }
 
 .logo {
@@ -37,4 +41,47 @@
 
 .bg-col-gry {
     background-color: #f3f3f3;
+}
+
+
+.form-header .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    padding: 10px 10px;
+    border-radius: 50px;
+}
+
+
+.form-header [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    margin-left: -45px;
+    border: 0px;
+    color: #646464;
+    
+}
+
+
+
+.form-header .btn-outline-success:hover {
+    color: #646464;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.nav-main {
+-webkit-clip-path: polygon(100% 0, 0 0, 26% 100%, 100% 100%);
+clip-path: polygon(100% 0, 0 0, 14% 100%, 100% 100%);
 }

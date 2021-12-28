@@ -1,6 +1,87 @@
-.first-banner {
-    background-image: url(.././images/banner.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 600px;
+.carousel-dark .carousel-caption {
+    color: #fff;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 56%;
+    bottom: auto;
+    left: 155px;
+    top: 0px;
+    padding-top: 5%;
+    padding-bottom: 0px;
+    text-align: start;
+    
+    
+}
+
+.banner h2 {
+    font-size: 26px;
+    padding: 20px 0px;
+}
+
+.banner h5 {
+    font-size: 64px;
+    border-left: 8px solid #FBC400;
+    padding-left: 40px;
+}
+
+.banner h5 span {
+    color: var( --main-color);
+}
+
+.banner p {
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+.banner button:not(:disabled) {
+    cursor: pointer;
+    margin-left: 0px;
+    border: 0px;
+    color: #646464;
+}
+
+.banner button {
+    background-color:transparent;
+    border: 2px solid #fff !important;
+    color: #fff !important;
+    padding: 20px 40px;
+    margin-right: 25px;
+}
+
+.banner button:hover {
+    border: 2px solid #FBC400 !important;
+    background-color: #FBC400;
+    box-shadow: rgba(250, 196, 0, 0.4) 0px 10px 20px 0px;
+}
+
+.banner .btn-primary:active{
+    color: #fff;
+    background-color: #FBC400 !important;
+    border-color: #FBC400 !important;
+}
+
+.banner .btn-primary:focus {
+    color: #fff;
+    background-color: #FBC400;
+    border-color: #FBC400;
+    box-shadow: rgba(250, 196, 0, 0.4) 0px 10px 20px 0px;
+}
+
+
+ .carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #FBC400;
+    margin: 0px 10px;
+}
+
+ .carousel-indicators [data-bs-target] {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+
+.carousel-indicators {
+    justify-content: end;
 }
