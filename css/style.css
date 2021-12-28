@@ -13,7 +13,7 @@
     }
     
     :root {
-        --main-color: #F27C22;
-        --sec-color: #1E1D45;
-        --tr-color:#FBC400;
+        --main-color: #EEBA00;
+        --sec-color: #242424;
+        --padding-auto: 0px 155px;
       }

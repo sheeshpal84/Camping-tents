@@ -1,19 +1,40 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    }
-    
-    h1 {
-        font-size: 40px;
-    }
-    
-    p {
-        font-size: 18px;
-    }
-    
-    :root {
-        --main-color: #F27C22;
-        --sec-color: #1E1D45;
-        --tr-color:#FBC400;
+
+.bg-col-right{
+          background-color: var(--main-color);
+          padding: 10px 0px 10px 155px;
+          color: #fff;
       }
+
+.bg-col-left {
+    background-color: var(--sec-color);
+    color: #fff;
+    padding: 10px 155px 10px 0px;
+}
+
+.logo {
+    padding: 20px 0px 20px 155px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    padding: 30px 40px;
+    color: #646464 !important;
+    font-weight: 500;
+}
+
+.form-header {
+    padding: 30px 5px;
+}
+
+.icon-list {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.icon-list a {
+    padding: 0px 5px;
+}
+
+.bg-col-gry {
+    background-color: #f3f3f3;
+}
