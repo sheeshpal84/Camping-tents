@@ -14,10 +14,10 @@
   <body>
   <?php 
    include("inc/Header.php");
-    ?>
-     <?php 
    include("inc/Header-banner.php");
+   include("inc/services-card.php");
     ?>
+    
 
 
 

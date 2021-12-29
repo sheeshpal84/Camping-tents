@@ -26,6 +26,7 @@
     padding-left: 40px;
 }
 
+
 .banner h5 span {
     color: var( --main-color);
 }
@@ -84,4 +85,8 @@
 
 .carousel-indicators {
     justify-content: end;
+    right: -140px;
+    bottom: 120px;
 }
+
+

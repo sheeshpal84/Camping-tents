@@ -1,0 +1,31 @@
+.box-padding{
+    padding: 0px 155px;
+    position: absolute;
+    top: -100px;
+}
+
+.box-padding .row {
+background: #fff;
+padding: 30px 20px;
+border-radius: 20px;
+box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;;
+}
+
+.card-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centent-box {
+    padding-left: 30px;
+}
+
+.centent-box h2 {
+    font-size: 20px;
+}
+
+.centent-box p {
+    font-size: 14px;
+    color: #828282;
+}
