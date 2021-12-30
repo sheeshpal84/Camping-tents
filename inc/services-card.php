@@ -42,3 +42,47 @@
         </idv>
     </div>
 </div>
+
+
+<div class="container-fluid top-my">
+    <div class="row box-px">
+        <div class="col-12 col-md-4 ">
+            <div class="main-card">
+                    <div class="centent-text">
+                        <h2>Camping Tent</h2>
+                        <p>All Products</p>
+                        <span>50% OFF</span><br>
+                        <button type="button" class="btn btn-primary">SHOP NOW</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 ">
+            <div class="main-card-2">
+                    <div class="centent-text">
+                        <h2>Shoes</h2>
+                        <p>All Products</p>
+                        <span>70% OFF</span><br>
+                        <button type="button" class="btn btn-primary">SHOP NOW</button>
+                </div>
+            </div>
+        </div>
+         <div class="col-12 col-md-4 ">
+            <div class="main-card-3">
+                    <div class="centent-text">
+                        <h2>Traveling</h2>
+                        <p>All Products</p>
+                        <span>40% OFF</span><br>
+                        <button type="button" class="btn btn-primary">SHOP NOW</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row p-0">
+        <div class="col-12 sec-banner">
+            <img src="images/sec-banner.png" alt="sec-banner" class="img-fluid">
+        </div>
+    </div>
+</div>

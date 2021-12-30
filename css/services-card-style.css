@@ -29,3 +29,112 @@ box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;;
     font-size: 14px;
     color: #828282;
 }
+
+
+.top-my {
+    margin: 100px 0px 0px 0px;
+}
+
+.box-px {
+    padding: 0px 155px;
+}
+.main-card {
+    background: url(.././images/card-1.png);
+    background-repeat: no-repeat;
+    height: 435px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-out;
+}
+
+.main-card-2 {
+    background: url(.././images/card-2.png);
+    background-repeat: no-repeat;
+    height: 435px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-out;
+}
+
+
+.main-card-3 {
+    background: url(.././images/card-3.png);
+    background-repeat: no-repeat;
+    height: 435px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-out;
+}
+
+
+
+.main-card:hover .centent-text{
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.1); 
+    transition: all 0.3s ease-in;
+    transition-duration: 0.3s;
+}
+
+
+
+.main-card-2:hover .centent-text{
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.1); 
+    transition: all 0.3s ease-in;
+    transition-duration: 0.3s;
+}
+
+.main-card-3:hover .centent-text{
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.1); 
+    transition: all 0.3s ease-in;
+    transition-duration: 0.3s;
+}
+.centent-text {
+    padding: 70px 90px; 
+    text-align: center;
+}
+
+.centent-text h2 {
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: #fff;
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+.centent-text p {
+ font-size: 20px;
+ font-weight: 600;
+ color: #fff;
+}
+.centent-text span {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+   }
+
+.centent-text button:not(:disabled) {
+    margin-left: 0px;
+    border: 0px;
+    color: #fff;
+    padding: 20px 50px;
+    border-radius: 0px;
+    background: #FBC400;
+    margin-top: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+} 
+
+.sec-banner {
+    margin-top: -100px;
+    z-index: -1;
+}
