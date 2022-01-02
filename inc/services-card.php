@@ -57,7 +57,7 @@
             </div>
         </div>
         <div class="col-12 col-md-4 ">
-            <div class="main-card-2">
+            <div class="main-card">
                     <div class="centent-text">
                         <h2>Shoes</h2>
                         <p>All Products</p>
@@ -67,7 +67,7 @@
             </div>
         </div>
          <div class="col-12 col-md-4 ">
-            <div class="main-card-3">
+            <div class="main-card">
                     <div class="centent-text">
                         <h2>Traveling</h2>
                         <p>All Products</p>
@@ -80,8 +80,8 @@
 </div>
 
 <div class="container-fluid">
-    <div class="row p-0">
-        <div class="col-12 sec-banner">
+    <div class="row">
+        <div class="col-12 sec-banner p-0">
             <img src="images/sec-banner.png" alt="sec-banner" class="img-fluid">
         </div>
     </div>

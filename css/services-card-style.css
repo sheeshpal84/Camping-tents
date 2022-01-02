@@ -49,56 +49,25 @@ box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;;
     transition: all 0.3s ease-out;
 }
 
-.main-card-2 {
+.box-px .col-12:nth-child(2) .main-card{
     background: url(.././images/card-2.png);
-    background-repeat: no-repeat;
-    height: 435px;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.3s ease-out;
 }
 
-
-.main-card-3 {
+.box-px .col-12:nth-child(3) .main-card{
     background: url(.././images/card-3.png);
-    background-repeat: no-repeat;
-    height: 435px;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.3s ease-out;
 }
+
 
 
 
 .main-card:hover .centent-text{
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.1); 
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    background-color: rgba(255, 255, 255, 0.3); 
     transition: all 0.3s ease-in;
     transition-duration: 0.3s;
 }
 
-
-
-.main-card-2:hover .centent-text{
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.1); 
-    transition: all 0.3s ease-in;
-    transition-duration: 0.3s;
-}
-
-.main-card-3:hover .centent-text{
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.1); 
-    transition: all 0.3s ease-in;
-    transition-duration: 0.3s;
-}
 .centent-text {
     padding: 70px 90px; 
     text-align: center;
