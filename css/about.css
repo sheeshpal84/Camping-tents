@@ -2,10 +2,10 @@
   background: url(.././images/about-banner.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: auto;
 }
 .py-padding {
-  padding: 0px 155px;
+  padding: 50px 155px;
 }
 .centent-about h5 {
   font-size: 20px;
@@ -14,4 +14,54 @@
   font-size: 45px;
   font-weight: 800;
   color: #585858;
+}
+.about-centent h2 {
+font-size: 70px;
+color:#2C2C2C;
+border-left: 6px solid var(--main-color);
+padding-left: 30px;
+font-weight: bold;
+}
+
+.about-centent span {
+  color: var(--main-color);
+}
+
+.about-centent p {
+  color: #787878;
+  padding-top: 30px;
+  font-size: 20px;
+  line-height: 2;
+}
+
+.about-centent button {
+  background-color: #242424;
+  color: #fff;
+  padding: 20px 40px;
+  margin: 50px 0px;
+}
+.about-centent button:hover {
+  background-color: var(--main-color);
+  box-shadow: rgba(250, 196, 0, 0.4) 0px 10px 20px 0px;
+}
+
+.about-centent button:not(:disabled) {
+  margin-left: 0px;
+}
+
+
+.about-slider {
+  padding-left: 50px;
+}
+
+
+.about-slider .carousel-indicators {
+  justify-content: center;
+  right:0px; 
+ bottom:0px;
+}
+
+
+.about-slider .carousel-indicators [data-bs-target] {
+  background-color: var(--main-color);
 }
