@@ -17,6 +17,7 @@
    include("inc/Header-banner.php");
    include("inc/services-card.php");
    include("inc/about.php");
+   include("inc/product.php");
     ?>
     
 
